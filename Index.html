@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form and Table</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form action="/submit" method="post">
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Embedded Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Watch this video on YouTube</a>
+
+    <h2>Sample Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Actions</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>State of Origin</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><button>Action 1</button></td>
+                <td>Chioma</td>
+                <td>Okafor</td>
+                <td>28</td>
+                <td>Anambra</td>
+            </tr>
+            <tr>
+                <td><button>Action 2</button></td>
+                <td>Bola</td>
+                <td>Adeyemi</td>
+                <td>34</td>
+                <td>Lagos</td>
+            </tr>
+            <tr>
+                <td><button>Action 3</button></td>
+                <td>Ahmed</td>
+                <td>Bello</td>
+                <td>45</td>
+                <td>Kano</td>
+            </tr>
+            <tr>
+                <td><button>Action 4</button></td>
+                <td>Fatima</td>
+                <td>Abubakar</td>
+                <td>22</td>
+                <td>Kaduna</td>
+            </tr>
+            <tr>
+                <td><button>Action 5</button></td>
+                <td>Emeka</td>
+                <td>Nwosu</td>
+                <td>30</td>
+                <td>Imo</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
